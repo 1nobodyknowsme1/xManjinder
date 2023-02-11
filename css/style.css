@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&family=Montserrat&family=Noto+Sans:wght@500&family=Pacifico&family=Poppins:wght@800&family=Roboto+Condensed:wght@700&family=Roboto+Mono&family=Sofia+Sans:ital,wght@0,800;1,300&family=Ubuntu+Mono:ital@1&family=Ubuntu:ital@1&display=swap');
+
+body {
+    color: rgb(206, 205, 205);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+span button {
+    color: white;
+}
+
+/* Navbar */
+
+.nav-link:hover {
+    color: #65647C;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', sans-serif;
+    color: rgb(206, 205, 205);
+}
+
+.navbar {
+    background-color: #3A3845;
+}
+
+.nav-link {
+    margin: 0 30px;
+}
+
+.nav-item {
+    left: 31%;
+    position: relative;
+}
+
+.link-section {
+    width: 40%;
+    display: flex;
+    position: relative;
+    left: 47rem;
+}
+
+/* 
+Middle Section */
+
+#middle-section {
+    background-color: #3A3845;
+    padding: 7% 14%;
+    height: 400px;
+}
+
+.col h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+
+.row {
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+.col {
+    margin: auto;
+}
+
+/* Skill Section */
+
+#skill-section {
+    text-align: center;
+    color: rgb(30, 29, 29);
+    padding: 5% 7%;
+    background-color: rgb(183, 185, 188);
+}
+
+#skill-section p {
+    padding: 12px 22%;
+}
+
+/* 
+About me Section */
+
+#about {
+    text-align: center;
+    /* padding: 14% 0%; */
+    height: 300px;
+    background-color: white;
+}
+
+/* 
+Contact Section */
+
+.contact-icon {
+    color: black;
+    width: 22px;
+}
+
+
+
+.carousel-item {
+    color: black;
+    padding: 8% 15%;
+}
+
+#about a {
+    color: black;
+    margin: 5px;
+}
+
+#about a:hover {
+    color: gray;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    background-color: #3A3845;
+    height: 100px;
+    padding-top: 2.5%;
+}
+
+@media screen and (max-width:1280px) {
+    .col h1 {
+        width: 63%;
+
+    }
+
+    #middle-section {
+        height: 257px;
+    }
+
+    .link-section {
+        width: 50%;
+        display: flex;
+        position: relative;
+        left: 46%;
+    }
+
+}
+
+
+@media screen and (max-width:1024px) {
+    .link-section {
+        position: relative;
+        position: relative;
+        left: 37%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .link-section {
+        position: relative;
+        left: -3rem;
+        margin-top: 12px;
+        margin-bottom: 13px;
+    }
+
+    .nav-link {
+        /* margin: 0 30px; */
+        width: 100%;
+    }
+
+    #footer p{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:280px){
+    .col h1 {
+        width: 93%;
+    }
+
+    .link-section{
+        left: -29%;
+        margin-left: 22px;
+    }
+    .nav-item {
+        left: 31%;
+        position: relative;
+        width: 56%;
+    }
+}
